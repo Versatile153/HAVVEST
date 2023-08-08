@@ -31,8 +31,13 @@
     <!-- Add Bootstrap CSS (if not already added) -->
 </head>
 <body>
+<!-- 
+    <div id="preloader">
+        <div id="loader"></div>
+    </div> -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <!-- Image on the left -->
         <a class="navbar-brand" href="#"><img src="/img/orange_logo__havvest.png" alt="Logo"></a>
@@ -66,12 +71,14 @@
                     <a class="nav-link" href="#">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-link" href="#">Sign Up</a>
+                    <a class="nav-link custom-link" style="color: white;" href="#">Sign Up</a>
                 </li>
+                
             </ul>
         </div>
     </div>
 </nav>
+
 
 
 <section>
@@ -103,13 +110,13 @@
                 <button class="btn btn-secondary mt-3 custom-link">Get Started</button>
 
                 <button class="btn btn mt-3 custom-link1">Download</button>
-               <a href="#">
-                <img class="circle" width="20" src="/img/playstore.png" alt="Image 2">
-               </a>
-                <a href="#">
-                <img class="circle" width="20" src="/img/download (4).png" alt="Image 2">
-
+                <a href="#" style="margin-right: 2px;">
+                    <img class="circle" width="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAY1BMVEX///8AAADHx8f6+vrl5eXh4eFjY2NRUVHr6+sXFxctLS0pKSn29vbd3d3o6Oh1dXUPDw9BQUFbW1sgICC4uLjU1NRqamqCgoJvb2+ZmZmMjIyqqqpGRkahoaE8PDwbGxs1NTUB75+iAAACf0lEQVRoge2a63LCIBCFXU28JCZG22rrpfb9n7IJLBoCpDMNu0w7e35oRGa+hD3AApnNRCKRSCQSiUQi0V/R6+UtGbvawDUZPS8Adhk/d9F9ZBuA5mPBjK726msNrcpXXvYcVhredPQ9a9jnAAfV1nXZweGYs7JhqeC5hjfnLSfbhrdhZzKdYsNSXWeNhsNqzsg2hgOj45qPbbld6Uzf8IaNbs/KB7y5UNMf7IHhOl2Jw/5ke+DEvb3HhoMqyZpeEVD29j7bcbvShYftur1TSRV2m+26Xd9SxcH2Ga7TqWZgh+Avt/i93WEbtzvln9HD7rL9bld3FTnsHjbC6437T9yE0scOxbzViZyN8MqBR0UH2ObJX3zoPFZCGWB73b7TZSWc4gzyIbbH7e+9kiiDfJCN8Gxjo2v8dY+wjgizB27XDZ4/O95qcthH2JbbEW05fzcxoRxjY+qc302DD3t8c5tkulH2w+2Yv9+dCl9TBvlxtjGc+qy9Nc5kbHxydQOBGr83/E9sNFxruSZQoaBjY6Nu98EK//K5n/HOAzXI4t33ud9sZD7XT13jd+5mMnT9G4eUdhY/qqtqMJ8Tjms4mRTd9bsHTjiea3RW6F8If/5NOY9htvp4Ut3sxnCk83cob9Hw23Tyb/K11u20+drSux7VeWpFm6f2He7CY2lkXZI5aIZ1CdrMzVLo12MJ16G+3aZODOvvhPsOAYdz7LccvA5n2WdCm9nzNM/+WsJ9xYT7qR6bce0ju2i2/fOE5wYJz0sSnhNhMmz6Nef5mG0z1nNBC817HornwAVDjx6y051/pzz3T/m+g1Kq9zxmad9vSflej0gkEolEIpFIJOLTN9TxG4W3Y1IRAAAAAElFTkSuQmCC" alt="Image 2">
                 </a>
+                <a href="#" style="margin-left: 2px;">
+                    <img class="circle" width="20" src="/img/download (4).png" alt="Image 2">
+                </a>
+                
             </div>
             
         </div>
@@ -117,9 +124,8 @@
 </section>
 
 <section class="image-section">
-    <img src="/img/Group 967.png" alt="Centered Image">
+    <img src="/img/Group 967.png" alt="Centered Image" class="img-fluid">
 </section>
-
 
 
 <section class="getting-started-section container">
@@ -128,43 +134,39 @@
        
     </div>
 </section>
-
 <section class="getting-started-section container">
     <div class="row">
         <!-- First Div -->
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-            <div style="background-color: white; height: 100px; margin-bottom: 40px; padding: 30px;">
-                <h3 style="font-weight: 800; font-size: 20px;" class="havvest h6">Account setup</h3>
+            <div style="background-color: white; margin-bottom: 20px; padding: 20px; text-align: center;">
+                <h3 style="font-weight: 800; font-size: 18px;" class="havvest h6">Account setup</h3>
                 <p class="h6">Only 1 minute and you're in. Enter the information you need to become a HavVestor and start saving or investing right away</p>
             </div>
         
-            <div style="background-color: white; height: 100px; margin-bottom: 40px; padding: 30px;">
-                <h3 style="font-weight: 800; font-size: 20px;" class="h6">Select a plan that suits your budget</h3>
+            <div style="background-color: white; margin-bottom: 20px; padding: 20px; text-align: center;">
+                <h3 style="font-weight: 800; font-size: 18px;" class="havvest h6">Select a plan that suits your budget</h3>
                 <p class="h6">Select a standard plan, a project that suits your budget or a saving plan with a good duration and interest</p>
             </div>
         
-            <div style="background-color: white; height: 100px; margin-bottom: 30px; padding: 30px;">
-                <h3 style="font-weight: 800; font-size: 20px;" class="h6">Watch your investment grow</h3>
+            <div style="background-color: white; margin-bottom: 20px; padding: 20px; text-align: center;">
+                <h3 style="font-weight: 800; font-size: 18px;" class="havvest h6">Watch your investment grow</h3>
                 <p class="h6">Invest and sit back. You can follow your investment status at any time and invest in limited time special offers</p>
             </div>
         
-            <div style="background-color: white; height: 100px; margin-bottom: 40px; padding: 30px;">
-                <h3 style="font-weight: 800; font-size: 20px;" class="h6">Payout Day</h3>
+            <div style="background-color: white; margin-bottom: 20px; padding: 20px; text-align: center;">
+                <h3 style="font-weight: 800; font-size: 18px;" class="havvest h6">Payout Day</h3>
                 <p class="h6">Your investment is eligible for withdrawal anytime after the first 24 hours</p>
             </div>
         </div>
         
         <!-- Second Div -->
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-           
             <div class="content-image">
                 <img src="/img/Frame 205.png" alt="Image">
             </div>
         </div>
     </div>
 </section>
-
-
 
 <section class="image-writeup-section container">
     <div class="row align-items-center">
@@ -200,7 +202,7 @@
 
                     <div class="image-container">
                         <a href="#">
-                            <p><img src="/img/Frame 2044.png" alt=""></p>
+                            <p><img src="/img/Frame 2045.png" alt=""></p>
                         </a>
                         <a href="#">
                             <p><img src="/img/Frame 2045.png" alt=""></p>
@@ -289,25 +291,25 @@
 
     <!-- Your carousel section -->
     <section class="getting-started-section container">
-        <div class="carousel">
+        <div class="carousel" style="margin-left: 1rem;">
             <div class="item">
-                <div class="content-image">
+                <div class="content-image" style="margin: 0.5rem;">
                     <img src="/img/Frame 2059.png" alt="Image 1">
                 </div>
             </div>
             <div class="item">
-                <div class="content-image">
+                <div class="content-image" style="margin: 0.5rem;">
                     <img src="/img/Group 979.jpg" alt="Image 2">
                 </div>
             </div>
             <div class="item">
-                <div class="content-image">
+                <div class="content-image" style="margin: 0.5rem;">
                     <img src="/img/Group 980.png" alt="Image 3">
                 </div>
             </div>
         </div>
     </section>
-
+    
 
 
 
@@ -395,21 +397,20 @@
     </div>
 </section>
 
-
 <section class="getting-started-section container">
     <div class="carousel">
         <div class="item">
-            <div class="content-image">
+            <div class="content-image" style="margin: 0.5rem;">
                 <img src="/img/Group 977.png" alt="Image 2" class="img-fluid">
             </div>
         </div>
         <div class="item">
-            <div class="content-image">
+            <div class="content-image" style="margin: 0.5rem;">
                 <img src="/img/Group 976.png" alt="Image 1" class="img-fluid">
             </div>
         </div>
         <div class="item">
-            <div class="content-image">
+            <div class="content-image" style="margin: 0.5rem;">
                 <img src="/img/Group 978.png" alt="Image 3" class="img-fluid">
             </div>
         </div>
@@ -417,11 +418,141 @@
 </section>
 
 
+
+
+<section class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="section-content">
+                <p class="font-weight-bold text-center text-md-left fs-5 fs-md-4">Get started on Havvest now!</p>
+                <h2 class="font-weight-bold text-center text-md-left fs-4 fs-md-3">The Smartest Way to Save, Invest <br> and Build Wealth</h2>
+            </div>
+            
+
+            <div class="image-container row">
+                <div class="col-12 mt-2" >
+                    <a href="#"><img src="/img/Frame 2033.png" alt=""></a>
+                </div>
+                <div class="col-12 mt-2">
+                    <a href="#"><img src="/img/Frame 2032.png" alt=""></a>
+                </div>
+                <div class="col-12 mt-2">
+                    <a href="#"><img src="/img/Frame 2034.png" alt=""></a>
+                </div>
+                <div class="col-12 mt-2">
+                    <a href="#"><img src="/img/Frame 2035.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mt-2">
+            <div class="text-center text-md-right mt-4 mt-md-0">
+                <a href="#" class="btn btn-primary custom-link">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- footer -->
+
+
+<footer class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li>Standard Plans</li>
+                    <li>Affiliate System</li>
+                    <li>Save & Earn</li>
+                </ul>
+            </div>
+            
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">Company</h4>
+                <ul class="list-unstyled">
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+            
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">Resources</h4>
+                <ul class="list-unstyled">
+                    <li>Raise a Dispute</li>
+                    <li>Your Account</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">Legal</h4>
+                <ul class="list-unstyled">
+                    <li>Privacy</li>
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">Contact</h4>
+                <ul class="list-unstyled ">
+                    <li><a style="color: blue;" href=""> Support@havvest.com</a>  </li>
+                   
+                   <li class="mt-2"> <a href="tel:+2348032978211">+234-803-297-8211</a> </li>
+
+                </ul>
+            </div>
+            
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">USA</h4>
+                <ul class="list-unstyled">
+                    <p>U.S: 1968 S. Coast Hwy, Laguna Beach, California</p>
+                  
+                </ul>
+            </div>
+            
+            <div class="col-md-3 mb-4">
+                <h4 class="mb-3">Nigeria</h4>
+                <ul class="list-unstyled">
+               <p>23 Coal City Gardens, GRA, Enugu.</p>
+                    
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <img src="/img/orange_logo__havvest.png" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
 <script src="/js/index.js"></script>
 <!-- Add Bootstrap JS script for hamburger functionality -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
 
 
